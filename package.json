@@ -1,0 +1,29 @@
+{
+  "name": "express-oauth",
+  "version": "0.0.1",
+  "description": "Easy evented oauth for expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClientState/express-oauth"
+  },
+  "keywords": [
+    "oauth",
+    "expressjs"
+  ],
+  "author": "Skylar Saveland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClientState/express-oauth/issues"
+  },
+  "homepage": "https://github.com/ClientState/express-oauth",
+  "dependencies": {
+    "chai": "^1.9.2",
+    "express": "^4.9.7",
+    "mocha": "^1.21.5",
+    "supertest": "^0.14.0"
+  }
+}
