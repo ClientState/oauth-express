@@ -8,7 +8,7 @@ require the handlers and add them to your app.
     handlers = require("express-oauth").handlers;
 
     app.get('/auth/:provider', handlers.auth_provider_redirect);
-    app.get('/auth_callback/:provider', handlers.oauth_callback);
+    app.get('/auth_callback/:provider', handlers.auth_callback);
 
 You have to rerun your app with environment variables set:
 
@@ -25,7 +25,7 @@ You can use Oauth.io to initiate the auth with a popup - on `http://localhost:80
 So, to run the `express-oauth`-enabled app on localhost:3000,
 you set the OAUTH_REDIRECT_URL to `http://localhost:8080`.
 
-    $ OAUTH_REDIRECT_URL=http://localhost:8090 nodemon server
+    $ OAUTH_REDIRECT_URL=http://localhost:8080 nodemon server
     Listening on port 3000
 
 To use Github as the Oauth provider, you must also set the env variables,
