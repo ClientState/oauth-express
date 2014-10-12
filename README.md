@@ -1,4 +1,4 @@
-express-oauth
+oauth-express
 =============
 
 Add oauth client to your express server.
